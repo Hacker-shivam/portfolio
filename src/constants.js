@@ -57,6 +57,11 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import zym from './assets/work_logo/zym.png'
+import agriai from './assets/work_logo/agriai.png'
+import bookmyseat from './assets/work_logo/bookmyseat.png'
+import medeasy from './assets/work_logo/medeasy.png'
+import taskmanagement from './assets/work_logo/taskmanagement.png'
 
 
 export const SkillsInfo = [
@@ -191,30 +196,30 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "BHUMI",
+      title: "Agri-Ai",
       description:
         "Agri-Ai is an AI-powered web application designed to assist farmers and agricultural stakeholders by recommending optimal crops and fertilizers based on environmental parameters and location. Leveraging machine learning models and a simple web interface, the system aims to provide actionable insights for improved agricultural decision-making.",
-      image: githubdetLogo,
+      image: agriai,
       tags: ["HTML", "CSS", "JavaScript"," PYTHON", "React JS", "API", "Express.js", "Authentication", "Flask-API"],
-      github: "",
-      webapp: "",
+      github: "https://github.com/Hacker-shivam/Agri-Ai",
+      webapp: "https://agri-ai-2-5v7y.onrender.com/login?next=%2F",
     },
     {
       id: 1,
       title: "MedEasy",
       description:
         "MedEasy is a full-stack healthcare web application that simplifies medical service booking, doctor discovery, and secure online payments. It provides a modern, scalable solution for patients, doctors, and admins using industry-grade tools and APIs.",
-      image: csprepLogo,
+      image: medeasy,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Hacker-shivam/MedEasy",
-      webapp: "",
+      webapp: "https://med-easy-qtgd.vercel.app/",
     },
     {
       id: 2,
       title: "Task Management",
       description:
         "A simple task management web application built with React and Vite — designed to help users create, view, and manage tasks efficiently.",
-      image: movierecLogo,
+      image: taskmanagement,
       tags: ["React JS", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Hacker-shivam/Task-management",
       webapp: "https://emager.netlify.app/",
