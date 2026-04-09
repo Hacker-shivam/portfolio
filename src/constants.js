@@ -62,6 +62,8 @@ import agriai from './assets/work_logo/agriai.png'
 import bookmyseat from './assets/work_logo/bookmyseat.png'
 import medeasy from './assets/work_logo/medeasy.png'
 import taskmanagement from './assets/work_logo/taskmanagement.png'
+import bhumi from './assets/work_logo/bhumi.png'
+import mayastudio from './assets/work_logo/mayastudio.png'
 
 
 export const SkillsInfo = [
@@ -196,14 +198,15 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Agri-Ai",
+      title: "Bhumi",
       description:
-        "Agri-Ai is an AI-powered web application designed to assist farmers and agricultural stakeholders by recommending optimal crops and fertilizers based on environmental parameters and location. Leveraging machine learning models and a simple web interface, the system aims to provide actionable insights for improved agricultural decision-making.",
-      image: agriai,
+        "Bhumi is an AI-powered web application designed to assist farmers and agricultural stakeholders by recommending optimal crops and fertilizers based on environmental parameters and location. Leveraging machine learning models and a simple web interface, the system aims to provide actionable insights for improved agricultural decision-making.",
+      image: bhumi,
       tags: ["HTML", "CSS", "JavaScript"," PYTHON", "React JS", "API", "Express.js", "Authentication", "Flask-API"],
-      github: "https://github.com/Hacker-shivam/Agri-Ai",
-      webapp: "https://agri-ai-2-5v7y.onrender.com/login?next=%2F",
+      github: "https://github.com/Hacker-shivam/Bhumi",
+      webapp: "https://bhumi-omega.vercel.app/",
     },
+    
     {
       id: 1,
       title: "MedEasy",
@@ -242,17 +245,17 @@ export const SkillsInfo = [
       image: taskremLogo,
       tags: ["Python", "HTML", "CSS"],
       github: "https://github.com/Hacker-shivam/Data-Analyst-Chatbot",
-      webapp: "",
+      webapp: "https://shivamanalysis.streamlit.app/",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Agri-Ai",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "Agri-Ai is an AI-powered web application designed to assist farmers and agricultural stakeholders by recommending optimal crops and fertilizers based on environmental parameters and location. Leveraging machine learning models and a simple web interface, the system aims to provide actionable insights for improved agricultural decision-making.",
+      image: agriai,
+      tags: ["HTML", "CSS", "JavaScript"," PYTHON", "React JS", "API", "Express.js", "Authentication", "Flask-API"],
+      github: "https://github.com/Hacker-shivam/Agri-Ai",
+      webapp: "https://agri-ai-2-5v7y.onrender.com/login?next=%2F",
     },
     {
       id: 6,
@@ -266,13 +269,13 @@ export const SkillsInfo = [
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Maya-Studio",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
+        "Maya Studio is a web app that converts any uploaded image into a passport-size photo with automatic background removal. It also generates a ready-to-print layout, making it easy to create professional photos at home.",
+      image: mayastudio,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/Hacker-shivam/code-reviewer",
-      webapp: "https://imagsearch.netlify.app/",
+      github: "https://github.com/Hacker-shivam/Maya-studio",
+      webapp: "https://maya-studio-kk.vercel.app/",
     },
     {
       id: 8,
