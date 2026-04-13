@@ -229,13 +229,13 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "Ai-Doc-Assistant",
+      title: "Event Booking",
       description:
-        "An AI Document Assistant is a smart software tool that uses artificial intelligence to help users create, edit, organize, and analyze documents efficiently. It can automatically generate content, summarize long texts, check grammar, suggest improvements, and even extract key information from files like PDFs or Word documents.",
+        "A full-stack Event / Service Booking Web Application built using modern web technologies. This platform allows users to explore events/services, register/login, and book seamlessly. ",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/Hacker-shivam/Ai-Doc-Assistant",
-      webapp: "",
+      tags: ["React JS", "Node.js", "NPM", "Validation", "OTP based Authentication"],
+      github: "https://github.com/Hacker-shivam/E-Booking",
+      webapp: "https://e-booking-shi.vercel.app/",
     },
     {
       id: 4,
@@ -279,12 +279,12 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "AI Doctor",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+        "An AI Document Assistant is a smart software tool that uses artificial intelligence to help users create, edit, organize, and analyze documents efficiently. It can automatically generate content, summarize long texts, check grammar, suggest improvements, and even extract key information from files like PDFs or Word documents.",
       image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
+      tags: ["React JS", "Node.js", "NPM", "Validation"],
+      github: "https://github.com/Hacker-shivam/Ai-Doc-Assistant",
       webapp: "https://removeyourbg.netlify.app/",
     },
   ];  
